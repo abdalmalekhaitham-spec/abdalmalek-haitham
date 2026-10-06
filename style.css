@@ -1,0 +1,114 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    background-color: rgb(248, 224, 189);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.body {
+    background-color: white;
+    width: 95%;
+    height: 95vh;
+    border-radius: 10px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    height: 12%;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+}
+
+.emoj {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+hr {
+    margin: 0;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 85%;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 50px;
+}
+
+.content-section {
+    max-width: 500px;
+}
+
+.content-section h2 {
+    font-size: 42px;
+    line-height: 1.2;
+}
+
+.content-section h2 span {
+    color: #d97706; /* Optional: adds style color to highlight text */
+}
+
+.content-section p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.button button {
+    background-color: #000;
+    color: #fff;
+    padding: 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.image {
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    border: 3px dashed rgb(88, 86, 86);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+img {
+    height: 80%;
+    width: 80%;
+    object-fit: contain;
+}
